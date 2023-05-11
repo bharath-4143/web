@@ -179,10 +179,10 @@ label{
     opacity: 30%;
 }
 .send{
-    background: gray;
-    width: 25px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 20px;
     height: auto;
-    border-radius: 25px;
-    padding:3px;
+    padding: 5px;
     margin-left: 10px;
 }
