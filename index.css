@@ -8,7 +8,7 @@
 }
 .closeicon{
     color: red;
-    float: inline-end;
+    float: right;
 }
 html,body{
     height: 100%;
@@ -19,7 +19,7 @@ ul{
     padding-top: 20px;
 }
 nav{
-    font-size: 20px;
+    font-size: 18px;
     height: 100%;
     visibility: hidden;
     position: fixed;
@@ -73,13 +73,13 @@ label{
 .box:focus {
     transform: scale(1.2);
 }
-.homeicon{
+.icon{
     width: 25px;
     height: 25px;
-    padding: 0px;
     margin: auto;
 }
-.homebar{
+.homebar,.connectbar{
+    padding: 0px;
     display: flex;
     max-width: 450px;
     background: white;
@@ -108,4 +108,62 @@ label{
     position: static;
     z-index: 1;
     margin: auto;
+}
+.mgs{
+    width: 90%;
+    display: flex;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+.chat{
+    max-width: 720px;
+    width: 100%;
+    padding: 0px;
+    border: 0.5px solid gray;
+    background: white;
+}
+.user{
+    background: white;
+    display: flex;
+    box-shadow: 0px 0px 10px gray;
+    padding: 5px;
+    font-size: 16px;
+}
+.profile{
+    box-shadow: 0px 0px 5px rgb(0, 255, 0);
+    border-radius: 45px;
+    margin:0px 5px 0px 5px;
+}
+.userinfo,.username,.userid{
+    margin: 0px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.mgsin,.mgsout{
+    width: 80%;
+    background: white;
+    box-shadow: 0px 0px 10px skyblue;
+    margin: 10px 0px 10px 0px;
+}
+.mgsin{
+    float: left;
+    border-bottom-left-radius: 0px;
+}
+.mgsout{
+    float: right;
+    border-bottom-right-radius: 0px;
+}
+.send{
+    background: gray;
+    width: 25px;
+    height: auto;
+    border-radius: 25px;
+    padding:3px;
+    margin-left: 10px;
 }
