@@ -84,7 +84,7 @@ label{
     max-width: 450px;
     background: white;
     box-shadow: 0px 0px 5px rgb(180, 180, 180);
-    position: sticky;
+    position: fixed;
     bottom: 0px;
 }
 .js,hr{
