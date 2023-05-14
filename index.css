@@ -109,8 +109,9 @@ label{
     z-index: 1;
     margin: auto;
 }
-.mgs{
-    width: 90%;
+.mgs,.mgsbar{
+    width: 85%;
+    margin-left: 10px;
     position: sticky;
     bottom: 0px;
     background: white;
@@ -118,7 +119,14 @@ label{
     font-size: 16px;
     border-radius: 30px;
     border: 0.5px solid black;
-    padding: 3px;
+    padding: 5px;
+}
+.mgsbar{
+    width: 100%;
+    border-radius: 0px;
+    margin: 0px;
+    border: none;
+    padding: 10px 0px 10px 0px;
 }
 .chat{
     max-width: 540px;
@@ -128,6 +136,7 @@ label{
     background: white;
 }
 .user{
+    z-index: 1;
     background: white;
     position: sticky;
     top: 0px;
@@ -159,29 +168,34 @@ label{
     max-height: 1080px;
 }
 .mgsin,.mgsout,.mgsrepin,.mgsrepout{
-    width: fit-content;
-    max-width: 80%;
+    width: 70%;
+    max-width: 360px;
+    overflow: auto;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     background: white;
     box-shadow: 0px 0px 3px 3px skyblue;
     margin: 10px 0px 10px 0px;
 }
 .mgsin,.mgsrepin{
+    float: inline-start;
     border-top-left-radius: 0px;
 }
 .mgsout,.mgsrepout{
-
+    float: inline-end;
     border-bottom-right-radius: 0px;
 }
 .dup{
-    width: 100%;
+    z-index: 0;
+    width: 90%;
     margin: 0px;
     opacity: 30%;
 }
 .send{
     border: 1px solid gray;
     border-radius: 50%;
-    width: 20px;
+    width: 25px;
     height: auto;
     padding: 5px;
     margin-left: 10px;
