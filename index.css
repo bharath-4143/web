@@ -179,11 +179,11 @@ label{
     margin: 10px 0px 10px 0px;
 }
 .mgsin,.mgsrepin{
-    float: inline-start;
+    float: left;
     border-top-left-radius: 0px;
 }
 .mgsout,.mgsrepout{
-    float: inline-end;
+    float: right;
     border-bottom-right-radius: 0px;
 }
 .dup{
