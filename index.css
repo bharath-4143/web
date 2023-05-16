@@ -36,6 +36,7 @@ nav{
 .righticon{
     float: right;
     padding: 0px;
+    margin: 0px 0px 0px 10px;
 }
 .search{
     padding: 8px;
@@ -56,10 +57,43 @@ label{
     padding: 10px 5px 10px 5px;
     border-radius: 0px;
 }
-.c1,.c2,.c3{
+.c1{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+}
+.profile{
+    z-index: 0;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    padding: 0px;
+    box-shadow: 0px 0px 1px 3px limegreen;
+    margin: 0px;
+}
+.profile:hover{
+    box-shadow: 0px 0px 1px 3px lime;
+}
+.mood{
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 0px 0px 2px 4px orange;
+}
+.mood:focus{
+    transform: scale(1.2);
+}
+.c2,.c3{
     overflow: auto;
     padding: 30px;
-    display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -76,7 +110,6 @@ label{
 .icon{
     width: 25px;
     height: 25px;
-    margin: auto;
 }
 .homebar,.connectbar{
     padding: 0px;
@@ -145,22 +178,18 @@ label{
     padding: 10px;
     font-size: 16px;
 }
-.profile{
-    width: 40px;
-    height: 40px;
-    padding: 1px;
-    box-shadow: 0px 0px 3px 2px rgb(0, 255, 0);
-    border-radius: 40px;
-    margin:0px 5px 0px 5px;
-}
 .userinfo,.username,.userid{
     margin: 0px;
-    width: fit-content;
+    width: 80%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 0px;
     padding-left: 5px;
     font-size: 16px;
+}
+.more{
+    margin: 0px;
+    float: right;
 }
 .chatbox{
     overflow: auto;
