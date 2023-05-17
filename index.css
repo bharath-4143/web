@@ -72,11 +72,11 @@ label{
     min-height: 40px;
     border-radius: 50%;
     padding: 0px;
-    box-shadow: 0px 0px 1px 3px limegreen;
+    box-shadow: 0px 0px 2px 5px rgb(0, 60, 0);
     margin: 0px;
 }
 .profile:hover{
-    box-shadow: 0px 0px 1px 3px lime;
+    box-shadow: 0px 0px 2px 5px lime;
 }
 .mood{
     width: 40px;
@@ -86,7 +86,7 @@ label{
     border-radius: 50%;
     padding: 2px;
     margin: 0px 15px 0px 15px;
-    box-shadow: 0px 0px 2px 4px orange;
+    box-shadow: 0px 0px 2px 6px orange;
 }
 .mood:focus{
     transform: scale(1.2);
@@ -175,16 +175,16 @@ label{
     top: 0px;
     display: flex;
     box-shadow: 0px 0px 10px gray;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     font-size: 16px;
 }
 .userinfo,.username,.userid{
     margin: 0px;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     padding: 0px;
-    padding-left: 5px;
+    padding-left: 8px;
     font-size: 16px;
 }
 .more{
