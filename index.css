@@ -9,7 +9,7 @@
 img{
     position: relative;
 }
-img :after{
+img ::after{
     content: "";
     position: absolute;
     top: 0;
