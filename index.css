@@ -123,6 +123,7 @@ label{
     box-shadow: 0px 0px 5px rgb(180, 180, 180);
     position: sticky;
     bottom: 0px;
+    top: auto;
 }
 .js,hr{
     padding: 0px;
@@ -151,6 +152,7 @@ label{
     margin-left: 10px;
     position: sticky;
     bottom: 0px;
+    top: auto;
     background: white;
     display: flex;
     font-size: 16px;
