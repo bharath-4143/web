@@ -13,6 +13,7 @@
 html,body{
     height: 100%;
     margin: 0px;
+    padding: 0px;
 }
 ul{
     padding-top: 20px;
@@ -120,9 +121,14 @@ label{
     bottom: 0px;
     top: auto;
 }
-.notebg,.wordbg{
+.notebg{
     padding: 0px;
     background-image: radial-gradient(white,gray);
+    display: flex;
+}
+.wordbg{
+    padding: 0px;
+    background-image: linear-gradient(white,gray);
     display: flex;
 }
 .noteimg{
@@ -276,20 +282,17 @@ label{
     padding: 0px;
 }
 .postimg{
-    border-radius: 10px;
     display: flex;
     width:auto;
-    max-width: 300px;
     height: auto;
+    max-width: 300px;
     max-height: 420px;
-    padding: 10px 0px 10px 0px;
 }
 .post,.postscript{
     width: 90%;
     max-width:360px;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
     margin: 0px;
 }
 .post{
