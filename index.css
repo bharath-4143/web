@@ -200,7 +200,43 @@ label{
     z-index: 1;
     margin: auto;
 }
-.mgs,.mgsbar{
+.chat{
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    padding: 0px;
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    background: white;
+}
+.userinfo{
+    background: white;
+    width: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    bottom: auto;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 15px;
+    margin-left: 0px;
+}
+.username,.userid{
+    margin: 0px;
+    padding: 0px;
+}
+.more{
+    float: right;
+    margin: 0px;
+}
+.chatbox{
+    width: auto;
+    height: 100vh;
+    overflow: auto;
+}
+.mgs{
     width: 85%;
     margin-left: 10px;
     position: sticky;
@@ -212,50 +248,6 @@ label{
     border-radius: 30px;
     border: 0.5px solid black;
     padding: 5px;
-}
-.mgsbar{
-    width: 100%;
-    border-radius: 0px;
-    margin: 0px;
-    border: none;
-    padding: 10px 0px 10px 0px;
-    bottom: 0px;
-    top: auto;
-}
-.chat{
-    max-width: 540px;
-    padding: 0px;
-    border: 0.5px solid gray;
-    box-shadow: 0px 0px 10px gray;
-    background: white;
-}
-.user{
-    background: white;
-    position: sticky;
-    display: flex;
-    top: 0px;
-    padding: 10px 0px 10px 15px;
-    margin: 0px;
-    font-size: 12px;
-    width: auto;
-}
-.userinfo,.username,.userid{
-    margin: 0px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    padding-left: 8px;
-    font-size: 15px;
-}
-.more{
-    margin: 0px;
-    float: right;
-}
-.chatbox{
-    overflow: auto;
-    height: 100%;
-    max-height: 1080px;
 }
 .mgsin,.mgsout,.mgsrepin,.mgsrepout{
     width: 70%;
@@ -277,10 +269,16 @@ label{
     border-bottom-right-radius: 0px;
 }
 .dup{
-    z-index: 0;
     width: 90%;
     margin: 0px;
     opacity: 30%;
+}
+.mgsbar{
+    background: white;
+    display: flex;
+    position: sticky;
+    bottom: 0px;
+    top: auto;
 }
 .send{
     border: 1px solid gray;
