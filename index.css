@@ -201,7 +201,6 @@ label{
     margin: auto;
 }
 .chat{
-    width: 100%;
     max-width: 520px;
     height: auto;
     padding: 0px;
@@ -233,8 +232,9 @@ label{
 }
 .chatbox{
     width: auto;
-    height: 100vh;
     overflow: auto;
+    height: auto;
+    max-height: 100vh;
 }
 .mgs{
     width: 85%;
@@ -274,9 +274,11 @@ label{
     opacity: 30%;
 }
 .mgsbar{
+    width: auto;
     background: white;
     display: flex;
     position: sticky;
+    padding: 10px 0px 10px 0px;
     bottom: 0px;
     top: auto;
 }
@@ -286,7 +288,7 @@ label{
     width: 25px;
     height: auto;
     padding: 5px;
-    margin: 0px 15px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 .post{
     box-shadow: 0px 0px 10px gray;
