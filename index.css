@@ -11,27 +11,13 @@
     float: right;
 }
 html,body{
-    height: 100%;
-    margin: 0px;
+    width: 100%;
+    height: auto;
+    max-width: 540px;
     padding: 0px;
 }
-ul{
-    padding-top: 20px;
-}
-nav{
-    font-size: 18px;
+body{
     height: 100%;
-    visibility: hidden;
-    position: fixed;
-    z-index: 1;
-    background: white;
-    box-shadow: 0px 0px 20px black;
-    width: 75%;
-    max-width: 320px;
-    margin: 0;
-    top: 0;
-    left: 0;
-    border-radius: 0px;
 }
 .righticon{
     float: right;
@@ -60,14 +46,14 @@ label{
 }
 .navbar{
     background: rgb(255, 255, 255);
-    position: fixed;
+    position: sticky;
     width: 100%;
     box-shadow: 0px 0px 10px whitesmoke;
     top: 0px;
     z-index: 1;
     font-size: 24px;
     font-weight: 600;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 0px 10px 0px;
     border-radius: 0px;
 }
 .c1{
@@ -110,7 +96,6 @@ label{
     font-size: 14px;
     box-shadow: 0px 0px 10px rgb(225, 225, 225);
     padding: 0px;
-    width: 300px;
     height: auto;
     margin-top: 20px;
 }
@@ -173,12 +158,12 @@ label{
     height: 25px;
 }
 .homebar,.connectbar,.mgsbar{
-    padding: 0px;
     display: flex;
     background: white;
     box-shadow: 0px 0px 5px rgb(180, 180, 180);
     position: fixed;
     width: 100%;
+    padding: 0px;
     bottom: 0px;
     top: auto;
 }
@@ -211,9 +196,6 @@ label{
     background: white;
     width: auto;
     display: flex;
-    position: sticky;
-    top: 0px;
-    bottom: auto;
 }
 .user{
     display: flex;
@@ -307,4 +289,7 @@ label{
     width: 90%;
     max-width: 320px;
     border: 1px solid gray;
+}
+.postststus{
+    display: flex;
 }
