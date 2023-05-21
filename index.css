@@ -12,12 +12,8 @@
 }
 html,body{
     width: 100%;
-    height: auto;
     max-width: 540px;
     padding: 0px;
-}
-body{
-    height: 100%;
 }
 .righticon{
     float: right;
@@ -161,7 +157,7 @@ label{
     display: flex;
     background: white;
     box-shadow: 0px 0px 5px rgb(180, 180, 180);
-    position: fixed;
+    position: sticky;
     width: 100%;
     padding: 0px;
     bottom: 0px;
@@ -273,12 +269,21 @@ label{
 .post,.postscript{
     width: 90%;
     max-width:360px;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
 .post{
     margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+.postscript{
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    box-shadow: inset 0px 0px 5px 1px gray;
 }
 .postinput,.input{
     display: flex;
@@ -290,6 +295,6 @@ label{
     max-width: 320px;
     border: 1px solid gray;
 }
-.postststus{
+.poststatus{
     display: flex;
 }
