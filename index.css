@@ -283,12 +283,14 @@ label{
     margin: 0px;
 }
 .post{
+    margin: auto;
     margin-top: 30vh;
     margin-bottom: 20vh;
 }
 .postscript{
     width: 75%;
     height: 30vh;
+    margin: auto;
     box-shadow: inset 0px 0px 5px 1px gray;
 }
 .postinput,.input{
@@ -303,5 +305,6 @@ label{
 }
 .poststatus{
     display: flex;
+    margin: auto;
     width: 80%;
 }
