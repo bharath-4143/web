@@ -15,6 +15,9 @@ html,body{
     max-width: 540px;
     padding: 0px;
 }
+body{
+    padding: 0px 0px 50px 0px;
+}
 html{
     height: 100vh;
     overflow: auto;
@@ -313,7 +316,7 @@ label{
     width: 80%;
 }
 .profilecard{
-    width: 90%;
+    width: 80%;
 }
 .edit{
     display: flex;
@@ -326,4 +329,7 @@ label{
 .count{
     display: flex;
     padding: 0px;
+}
+.profilepostgallery{
+    max-width: 340px;
 }
