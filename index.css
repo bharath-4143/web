@@ -316,7 +316,7 @@ label{
     width: 80%;
 }
 .profilecard{
-    width: 80%;
+    width: 90%;
 }
 .edit{
     display: flex;
@@ -331,5 +331,13 @@ label{
     padding: 0px;
 }
 .profilepostgallery{
-    max-width: 340px;
+    width: 99%;
+    max-width: 480px;
+    padding: 0px;
+}
+.profilepost{
+    width: 32.7%;
+    height: 32.7%;
+    aspect-ratio: 1;
+    padding: 0px;
 }
